@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nux-hub-example-ai",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,8 +11,12 @@
   },
   "dependencies": {
     "@nuxt/ui": "^2.18.4",
+    "@nuxthub/core": "^0.7.3",
     "@zunderai/ui": "^0.1.5",
     "nuxt": "^3.13.0",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "wrangler": "^3.72.2"
   }
 }
